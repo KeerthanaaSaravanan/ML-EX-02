@@ -1,5 +1,9 @@
 # BLENDED_LEARNING
 # Implementation-of-Linear-and-Polynomial-Regression-Models-for-Predicting-Car-Prices
+<H3>NAME: KEERTHANA S</H3>
+<H3>REGISTER NO.: 212223240070</H3>
+<H3>EX. NO.2</H3>
+<H3>DATE:</H3>
 
 ## AIM:
 To write a program to predict car prices using Linear Regression and Polynomial Regression models.
