@@ -1,9 +1,8 @@
-# BLENDED_LEARNING
 # Implementation-of-Linear-and-Polynomial-Regression-Models-for-Predicting-Car-Prices
 <H3>NAME: KEERTHANA S</H3>
 <H3>REGISTER NO.: 212223240070</H3>
 <H3>EX. NO.2</H3>
-<H3>DATE:</H3>
+<H3>DATE: 19-08-24 </H3>
 
 ## AIM:
 To write a program to predict car prices using Linear Regression and Polynomial Regression models.
@@ -13,29 +12,19 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. **Data Collection**:  
-   - Import essential libraries like pandas, numpy, sklearn, matplotlib, and seaborn.  
-   - Load the dataset using `pandas.read_csv()`.
-
-2. **Data Preprocessing**:  
-   - Address any missing values in the dataset.  
-   - Select key features for training the models.  
-   - Split the dataset into training and testing sets with `train_test_split()`.
-
-3. **Linear Regression**:  
-   - Initialize the Linear Regression model from sklearn.  
-   - Train the model on the training data using `.fit()`.  
-   - Make predictions on the test data using `.predict()`.  
-   - Evaluate model performance with metrics such as Mean Squared Error (MSE) and the R² score.
-
-4. **Polynomial Regression**:  
-   - Use `PolynomialFeatures` from sklearn to create polynomial features.  
-   - Fit a Linear Regression model to the transformed polynomial features.  
-   - Make predictions and evaluate performance similar to the linear regression model.
-
-5. **Visualization**:  
-   - Plot the regression lines for both Linear and Polynomial models.  
-   - Visualize residuals to assess model performance.
+1. **Load the Dataset:** Import data and extract features (engine size) and target (price).
+2. **Split Data:** Divide the dataset into training and testing sets.
+3. **Linear Regression:**
+     - Train the model using the training set.
+     - Predict prices for the test set.
+     - Evaluate performance with Mean Squared Error (MSE) and R² score.
+4. **Polynomial Regression:**
+     - Transform the features to include polynomial terms.
+     - Train a Linear Regression model on the transformed data.
+     - Predict prices and evaluate performance using MSE and R² score.
+5. **Visualization:**
+     - Plot actual vs predicted prices for both Linear and Polynomial Regression.
+     - Assess residuals for model validation.
 
 ## Program:
 ```py
@@ -101,6 +90,7 @@ plt.show()
 ## Output:
 ![image](https://github.com/user-attachments/assets/b5fe0c2b-8c65-4a6b-bf22-b01ad8bba46f)
 ![image](https://github.com/user-attachments/assets/98dfc5ae-a501-49c8-8951-2005a77473df)
+![image](https://github.com/user-attachments/assets/0de8ef03-c7d3-4ac0-a0e6-3fcfa05a623c)
 
 ## Result:
 Thus, the program to implement Linear and Polynomial Regression models for predicting car prices was written and verified using Python programming.
