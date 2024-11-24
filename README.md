@@ -68,22 +68,23 @@ print("Polynomial Regression MSE:", mean_squared_error(y_test, y_pred_poly))
 print("Polynomial Regression R^2 score:", r2_score(y_test, y_pred_poly))
 
 # Visualization: Linear Regression
-plt.scatter(X_test, y_test, color='red', label='Actual Prices')
-plt.plot(X_test, y_pred_linear, color='blue', label='Linear Regression')
-plt.title('Linear Regression for Car Prices')
+plt.scatter(X_test, y_test, color='red', label='Actual')
+plt.plot(X_test, y_pred_linear, color='blue', label='Linear')
+plt.title('Linear Regression')
 plt.xlabel('Engine Size')
 plt.ylabel('Price')
 plt.legend()
 plt.show()
 
 # Visualization: Polynomial Regression
-plt.scatter(X_test, y_test, color='red', label='Actual Prices')
-plt.plot(X_test, y_pred_poly, color='green', label='Polynomial Regression')
-plt.title('Polynomial Regression for Car Prices')
+plt.scatter(X_test, y_test, color='red', label='Actual')
+plt.plot(X_test, y_pred_poly, color='green', label='Polynomial')
+plt.title('Polynomial Regression')
 plt.xlabel('Engine Size')
 plt.ylabel('Price')
 plt.legend()
 plt.show()
+
 
 ```
 
